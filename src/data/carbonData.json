@@ -111,5 +111,6 @@
   "towel_microfiber": {"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
   "flat_mop":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
   "ring_set":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
-  "moti":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."}
+  "moti":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
+  "maggi":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."}
 }
