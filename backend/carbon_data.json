@@ -112,5 +112,2247 @@
   "flat_mop":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
   "ring_set":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
   "moti":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
-  "maggi":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."}
+  "maggi":{"carbon": 3.0, "unit": "kg CO₂e per item", "notes": "Synthetic material emissions."},
+  
+  "apples": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Local and seasonal apples have the lowest footprint."
+  },
+  "apricots": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Stone fruit with moderate water needs."
+  },
+  "avocado": {
+    "carbon": 1.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Water use and transport are major factors."
+  },
+  "bananas": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Grown in tropical regions; transport is a key factor."
+  },
+  "blackberries": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Berry cultivation can require significant inputs."
+  },
+  "blueberries": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Can be higher if grown in peat substrate or greenhouses."
+  },
+  "cantaloupe_melon": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "High water content, relatively low carbon footprint."
+  },
+  "cherries": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Orchard management and transport are key factors."
+  },
+  "coconut_whole": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Grown on palms, transport is a factor."
+  },
+  "cranberries": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Require specific bog-like conditions to grow."
+  },
+  "dates": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Palm cultivation and processing."
+  },
+  "dragon_fruit": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tropical fruit, requires transport from growing regions."
+  },
+  "durian": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Transport from Southeast Asia is a major factor."
+  },
+  "figs_dried": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy-intensive."
+  },
+  "goji_berries_dried": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried berry, transport from China is a major factor."
+  },
+  "grapefruit": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Citrus fruit with moderate water needs."
+  },
+  "grapes": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Pesticide and water use can be factors."
+  },
+  "guava": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tropical fruit with a moderate footprint."
+  },
+  "jackfruit": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Large fruit grown on trees, can be a meat substitute."
+  },
+  "kiwifruit": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Transport from major producers like New Zealand is a factor."
+  },
+  "lemon": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Citrus fruit, similar footprint to oranges but smaller."
+  },
+  "lime": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Citrus fruit with similar needs to lemons."
+  },
+  "lychee": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tropical fruit; transport from growing regions."
+  },
+  "mangoes": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tropical fruit; transport and farm management are key."
+  },
+  "nectarines": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Stone fruit, similar to peaches."
+  },
+  "oranges": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions vary by region, irrigation needs, and transport."
+  },
+  "papaya": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tropical fruit; transport is a factor."
+  },
+  "passion_fruit": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tropical fruit, requires transport."
+  },
+  "peaches": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Stone fruit with moderate water needs."
+  },
+  "pears": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to apples, lowest impact when local and seasonal."
+  },
+  "persimmon": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tree fruit with moderate inputs."
+  },
+  "pineapple": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Transport from tropical regions is a major contributor."
+  },
+  "plantain": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Starchy relative of the banana, similar footprint."
+  },
+  "plums": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Stone fruit, orchard management."
+  },
+  "pomegranate": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Orchard management and water use are factors."
+  },
+  "raisins": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Energy-intensive drying of grapes."
+  },
+  "raspberries": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Delicate, require careful handling and often refrigerated transport."
+  },
+  "sapodilla_chikoo": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tropical fruit tree with low inputs."
+  },
+  "strawberries": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Often grown in plastic tunnels which adds to footprint."
+  },
+  "watermelon": {
+    "carbon": 0.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "High water content, relatively low carbon footprint."
+  },
+  "amla_indian_gooseberry": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fruit from a tree, low inputs."
+  },
+  "artichoke": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Can require intensive farming practices."
+  },
+  "asparagus": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Can be much higher if air-freighted from off-season locations."
+  },
+  "beets": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Root vegetable with low impact."
+  },
+  "bell_peppers_capsicum": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Footprint increases significantly if grown in heated greenhouses."
+  },
+  "bitter_gourd_karela": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low impact gourd."
+  },
+  "bottle_gourd_lauki": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Water-heavy vegetable with low footprint."
+  },
+  "broccoli": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Relatively low impact vegetable."
+  },
+  "brussels_sprouts": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to cabbage, low impact."
+  },
+  "cabbage": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Hardy vegetable with low environmental impact."
+  },
+  "carrots": {
+    "carbon": 0.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low-impact root vegetable."
+  },
+  "cauliflower": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low-impact cruciferous vegetable."
+  },
+  "celery": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low impact vegetable."
+  },
+  "chilies_green": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low impact, higher if greenhouse grown."
+  },
+  "corn_sweet": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Farming emissions from fertilizers are the main source."
+  },
+  "cucumbers": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low impact, but greenhouse growing increases footprint."
+  },
+  "eggplant_brinjal": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Common in Indian cuisine, low impact."
+  },
+  "fennel": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low impact bulb vegetable."
+  },
+  "garlic": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Root vegetable, low impact."
+  },
+  "ginger": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Root vegetable, low impact."
+  },
+  "green_beans": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Require nitrogen fertilizer, which is a source of emissions."
+  },
+  "ivy_gourd_kundru": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Type of gourd with low impact."
+  },
+  "kale": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Hardy leafy green."
+  },
+  "leeks": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to onions."
+  },
+  "lettuce": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Can vary if grown in heated greenhouses."
+  },
+  "lotus_stem_kamal_kakdi": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Aquatic vegetable, requires specific growing conditions."
+  },
+  "mushrooms": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Grown indoors; substrate and energy use are factors."
+  },
+  "okra_bhindi": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Warm-weather crop, low impact in native climates."
+  },
+  "olives": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Curing process contributes to footprint."
+  },
+  "onions": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low-impact root vegetable."
+  },
+  "parsnips": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Root vegetable."
+  },
+  "peas_frozen": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes energy for freezing and packaging."
+  },
+  "pointed_gourd_parwal": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Type of gourd."
+  },
+  "potatoes": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low emissions; efficient land and water use."
+  },
+  "pumpkin": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Hardy, grows easily with low inputs."
+  },
+  "radish": {
+    "carbon": 0.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fast-growing root vegetable."
+  },
+  "ridge_gourd_turai": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to other low-impact gourds."
+  },
+  "spinach_palak": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low-impact leafy green."
+  },
+  "sweet_potatoes": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Slightly higher than potatoes due to cultivation needs."
+  },
+  "taro_root_arbi": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Starchy root vegetable."
+  },
+  "tomatoes_field_grown": {
+    "carbon": 1.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Greenhouse-grown tomatoes can have a much higher footprint."
+  },
+  "turnips": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Root vegetable."
+  },
+  "water_chestnut_singhara": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Aquatic vegetable."
+  },
+  "yam_suran": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Starchy tuber."
+  },
+  "zucchini_courgette": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Type of gourd, low impact."
+  },
+  "basil_dried": {
+    "carbon": 1.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy intensive."
+  },
+  "coriander_leaves_dhania": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Herb with very low land requirement."
+  },
+  "curry_leaves": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "From trees, minimal inputs."
+  },
+  "dill_dried": {
+    "carbon": 1.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy intensive."
+  },
+  "fenugreek_leaves_methi": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Leafy green common in Indian dishes."
+  },
+  "mint_leaves": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fast-growing herb with low impact."
+  },
+  "oregano_dried": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy intensive."
+  },
+  "parsley_dried": {
+    "carbon": 1.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy intensive."
+  },
+  "rosemary_dried": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy intensive."
+  },
+  "sage_dried": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy intensive."
+  },
+  "thyme_dried": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying process is energy intensive."
+  },
+  "beef_beef_herd": {
+    "carbon": 60.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "High emissions from methane, feed, and land use change."
+  },
+  "beef_ground": {
+    "carbon": 58.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Standard ground beef, high footprint."
+  },
+  "beef_steak_sirloin": {
+    "carbon": 62.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Specific cut of beef, includes processing."
+  },
+  "bison": {
+    "carbon": 45.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Ruminant with high methane emissions, similar to beef."
+  },
+  "chicken": {
+    "carbon": 6.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Lower than red meats; emissions are mainly from feed."
+  },
+  "chicken_breast": {
+    "carbon": 6.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Lean cut of chicken."
+  },
+  "chicken_thighs": {
+    "carbon": 6.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Slightly higher fat content, more processing."
+  },
+  "chicken_wings": {
+    "carbon": 6.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Bone-in, requires processing."
+  },
+  "duck": {
+    "carbon": 7.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Poultry, similar to chicken but often less intensive systems."
+  },
+  "goat_meat": {
+    "carbon": 23.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar profile to lamb, with high methane emissions."
+  },
+  "lamb_and_mutton": {
+    "carbon": 24.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "High methane emissions from digestion and feed production."
+  },
+  "pork": {
+    "carbon": 7.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions from feed production and manure management."
+  },
+  "quail": {
+    "carbon": 5.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Small poultry bird."
+  },
+  "rabbit_farmed": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low-impact meat."
+  },
+  "turkey": {
+    "carbon": 6.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Poultry, similar to chicken."
+  },
+  "venison_farmed": {
+    "carbon": 15.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Farmed deer have similar emissions to other ruminants."
+  },
+  "anchovies_fresh": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Small fish, efficient catch."
+  },
+  "clams_farmed": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to mussels, very low impact."
+  },
+  "cod_wild": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Trawling fishing methods are fuel intensive."
+  },
+  "crab": {
+    "carbon": 8.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fuel for fishing boats is a major factor."
+  },
+  "crayfish_farmed": {
+    "carbon": 6.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to farmed prawns."
+  },
+  "haddock_wild": {
+    "carbon": 3.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to cod, often caught together."
+  },
+  "herring_fresh": {
+    "carbon": 1.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Small fish, efficient catch."
+  },
+  "lobster": {
+    "carbon": 15.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fuel-intensive fishing methods."
+  },
+  "mackerel_fresh": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Wild catch fishing emissions."
+  },
+  "mussels_farmed": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Filter feeders, require very few inputs."
+  },
+  "octopus": {
+    "carbon": 9.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fuel-intensive fishing methods."
+  },
+  "pollock_wild": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Often used in fish sticks, large-scale fishing."
+  },
+  "prawns_farmed": {
+    "carbon": 12.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Feed production and energy use on farms are key drivers."
+  },
+  "salmon_farmed": {
+    "carbon": 6.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Feed production is a primary driver of emissions."
+  },
+  "sardines_canned": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fishing and canning process."
+  },
+  "sardines_fresh": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Small fish, efficient catch."
+  },
+  "scallops": {
+    "carbon": 14.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dredging method for fishing has high fuel use."
+  },
+  "sea_bass_farmed": {
+    "carbon": 5.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Feed is the main driver."
+  },
+  "shrimp_wild": {
+    "carbon": 10.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Bottom trawling for wild shrimp is very fuel-intensive."
+  },
+  "squid": {
+    "carbon": 8.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fuel-intensive fishing methods."
+  },
+  "tilapia_farmed": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Feed is the main driver."
+  },
+  "trout_farmed": {
+    "carbon": 4.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Feed and farm energy use."
+  },
+  "tuna_canned_in_oil": {
+    "carbon": 5.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fishing, canning, oil, and transport."
+  },
+  "butter": {
+    "carbon": 7.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Concentrated from milk; energy-intensive churning process."
+  },
+  "buttermilk_chaas": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per liter",
+    "notes": "Diluted yogurt/milk product."
+  },
+  "cheese_blue": {
+    "carbon": 20.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Requires specific cultures and aging conditions."
+  },
+  "cheese_brie_camembert": {
+    "carbon": 19.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Soft-ripened cheeses."
+  },
+  "cheese_cheddar": {
+    "carbon": 21.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Common hard cheese."
+  },
+  "cheese_cottage": {
+    "carbon": 4.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to paneer, derived from milk."
+  },
+  "cheese_cream": {
+    "carbon": 6.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Higher fat content means more milk required."
+  },
+  "cheese_feta": {
+    "carbon": 15.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Typically from sheep/goat milk, which has a higher footprint."
+  },
+  "cheese_goat": {
+    "carbon": 16.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Made from goat milk."
+  },
+  "cheese_halloumi": {
+    "carbon": 18.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mixture of sheep/goat/cow milk, requires heating."
+  },
+  "cheese_hard_generic": {
+    "carbon": 21.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Varies by type; requires large milk inputs. High processing energy."
+  },
+  "cheese_mozzarella_cows_milk": {
+    "carbon": 12.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fresh cheese, less aging than hard cheese."
+  },
+  "cheese_parmesan": {
+    "carbon": 22.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Aged hard cheese, requires large volume of milk."
+  },
+  "cheese_ricotta": {
+    "carbon": 10.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Made from whey, a by-product of cheesemaking."
+  },
+  "chhena": {
+    "carbon": 5.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to paneer, used for sweets."
+  },
+  "eggs": {
+    "carbon": 4.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions are mainly from chicken feed. Approx 2.7 kg per dozen."
+  },
+  "ghee_clarified_butter": {
+    "carbon": 20.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Highly concentrated from milk; requires significant heating."
+  },
+  "ice_cream_dairy": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Milk, sugar, and energy for freezing."
+  },
+  "kefir": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per liter",
+    "notes": "Fermented milk drink."
+  },
+  "khoya_mawa": {
+    "carbon": 18.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Reduced milk solids, highly concentrated."
+  },
+  "milk_almond": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per liter",
+    "notes": "Requires almonds and water; lower impact than dairy."
+  },
+  "milk_buffalo": {
+    "carbon": 4.5,
+    "unit": "kg CO₂e per liter",
+    "notes": "Higher fat milk, ruminant emissions."
+  },
+  "milk_coconut": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing of coconut flesh."
+  },
+  "milk_cows": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per liter",
+    "notes": "Includes methane from cows and emissions from feed."
+  },
+  "milk_goat": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per liter",
+    "notes": "Goats produce less methane than cows but yield less milk."
+  },
+  "milk_oat": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing of oats; low impact."
+  },
+  "milk_sheep": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per liter",
+    "notes": "Higher fat content, more emissions per liter."
+  },
+  "milk_soy": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing of soybeans; lower than dairy milk."
+  },
+  "paneer_indian_cheese": {
+    "carbon": 5.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Derived from milk. Requires ~5-6 kg milk per kg of paneer."
+  },
+  "protein_powder_whey": {
+    "carbon": 8.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "By-product of cheese making, requires significant processing."
+  },
+  "sour_cream": {
+    "carbon": 3.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fermented cream product."
+  },
+  "yogurt_dahi": {
+    "carbon": 2.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Slightly lower than milk due to fermentation process, but includes processing."
+  },
+  "seitan": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Made from wheat gluten, low impact."
+  },
+  "tempeh": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fermented soybeans, slightly more processing than tofu."
+  },
+  "tofu": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low-impact protein source derived from soybeans."
+  },
+  "amaranth": {
+    "carbon": 1.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Ancient grain."
+  },
+  "atta_whole_wheat_flour": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes emissions from milling the grain."
+  },
+  "bajra_pearl_millet": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drought-resistant, staple grain in arid regions of India."
+  },
+  "bajra_flour": {
+    "carbon": 1.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes milling of Bajra."
+  },
+  "barley": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cereal grain."
+  },
+  "besan_gram_flour": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Derived from chickpeas (chana dal)."
+  },
+  "buckwheat": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Not a wheat, but a seed; low inputs."
+  },
+  "bulgur": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cracked and parboiled wheat."
+  },
+  "corn_starch": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Extracted from corn, requires processing."
+  },
+  "couscous": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Made from semolina (wheat)."
+  },
+  "freekeh": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Roasted young wheat."
+  },
+  "jowar_sorghum": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drought-resistant grain, common in India."
+  },
+  "jowar_flour": {
+    "carbon": 1.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes milling of Jowar."
+  },
+  "maida_refined_wheat_flour": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Higher processing energy compared to whole wheat flour."
+  },
+  "oats": {
+    "carbon": 1.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Efficient cereal crop with relatively low inputs."
+  },
+  "poha_flattened_rice": {
+    "carbon": 4.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes energy for steaming and flattening rice."
+  },
+  "quinoa": {
+    "carbon": 1.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Grown primarily in the Andes; transport is a factor."
+  },
+  "ragi_finger_millet": {
+    "carbon": 1.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Nutrient-dense millet with low water needs."
+  },
+  "ragi_flour": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes milling of Ragi."
+  },
+  "rava_suji_semolina": {
+    "carbon": 1.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "By-product of milling wheat."
+  },
+  "rice_arborio": {
+    "carbon": 4.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Specialty rice for risotto."
+  },
+  "rice_basmati": {
+    "carbon": 4.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Aged rice variety, similar footprint to standard rice."
+  },
+  "rice_black": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Variety of rice."
+  },
+  "rice_brown": {
+    "carbon": 3.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Less processed than white rice, so slightly lower footprint."
+  },
+  "rice_flour": {
+    "carbon": 4.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Derived from rice, carries its high methane footprint."
+  },
+  "rice_idli": {
+    "carbon": 4.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Parboiled rice used for Indian snacks."
+  },
+  "rice_jasmine": {
+    "carbon": 4.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Aromatic long-grain rice."
+  },
+  "rice_red": {
+    "carbon": 3.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Variety of rice."
+  },
+  "rice_sona_masoori": {
+    "carbon": 4.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Common Indian rice variety."
+  },
+  "rice_white": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Methane from flooded paddy fields is a significant contributor."
+  },
+  "rice_wild": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Harvested from aquatic grass."
+  },
+  "rye": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Hardy cereal grain."
+  },
+  "sago_sabudana": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processed from tapioca root."
+  },
+  "spelt": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Type of wheat."
+  },
+  "wheat_grain": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "A staple grain with moderate emissions from farming."
+  },
+  "beans_dried_generic": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low-impact protein; nitrogen-fixing properties reduce fertilizer needs."
+  },
+  "chana_dal_split_chickpeas": {
+    "carbon": 1.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Derived from chickpeas, a low-impact legume."
+  },
+  "chickpeas_dried": {
+    "carbon": 1.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Also known as Garbanzo beans or Chana."
+  },
+  "kidney_beans_rajma_dried": {
+    "carbon": 2.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Slightly higher due to longer growing seasons."
+  },
+  "lentils_generic": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Very low-impact protein source, similar to beans."
+  },
+  "masoor_dal_red_lentils": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "One of the lowest impact pulses."
+  },
+  "moong_dal_mung_beans": {
+    "carbon": 1.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Small lentils, efficient crop."
+  },
+  "protein_powder_pea": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Derived from yellow peas."
+  },
+  "protein_powder_soy": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Derived from soybeans."
+  },
+  "soybeans_dried": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Base for many products like tofu and soy milk."
+  },
+  "toor_dal_pigeon_peas": {
+    "carbon": 1.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Similar to other dried beans, a staple in Indian cuisine."
+  },
+  "urad_dal_black_gram": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Common Indian lentil with a low footprint."
+  },
+  "canola_rapeseed_oil": {
+    "carbon": 2.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Farming and processing of rapeseed."
+  },
+  "coconut_oil": {
+    "carbon": 5.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Land use for coconut plantations is a factor."
+  },
+  "groundnut_oil_peanut_oil": {
+    "carbon": 3.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions from farming and oil extraction process."
+  },
+  "mustard_oil": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Common cooking oil in India; from mustard seeds."
+  },
+  "olive_oil": {
+    "carbon": 6.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions from orchard management, harvesting, and processing."
+  },
+  "palm_oil": {
+    "carbon": 7.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "High footprint primarily due to deforestation and land use change."
+  },
+  "sesame_oil": {
+    "carbon": 3.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Requires processing of sesame seeds."
+  },
+  "sunflower_oil": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions from farming sunflowers and oil extraction."
+  },
+  "vegetable_oil_blended": {
+    "carbon": 3.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mix of oils like soy, palm, sunflower."
+  },
+  "almonds": {
+    "carbon": 3.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Water use is a major environmental factor, along with orchard management."
+  },
+  "brazil_nuts": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Often wild-harvested from rainforests."
+  },
+  "cashews": {
+    "carbon": 3.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing to remove the nut from its caustic shell is intensive."
+  },
+  "chestnuts": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Grown on trees with relatively low inputs."
+  },
+  "chia_seeds": {
+    "carbon": 1.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Transport from Central/South America is a factor."
+  },
+  "chironji_cuddapah_almond": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Type of nut."
+  },
+  "flax_seeds": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low input crop."
+  },
+  "hazelnuts": {
+    "carbon": 2.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Orchard management."
+  },
+  "hemp_seeds": {
+    "carbon": 1.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Low input crop."
+  },
+  "macadamia_nuts": {
+    "carbon": 4.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Orchard management and hard shell processing."
+  },
+  "makhana_fox_nuts": {
+    "carbon": 1.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Popped lotus seeds; requires processing."
+  },
+  "peanuts_groundnuts_shelled": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Nitrogen-fixing crop, but requires processing."
+  },
+  "pecans": {
+    "carbon": 2.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Orchard management."
+  },
+  "pine_nuts": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Labor-intensive harvesting."
+  },
+  "pistachios": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Orchard management and water use."
+  },
+  "poppy_seeds_khas_khas": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Harvesting and processing."
+  },
+  "pumpkin_seeds": {
+    "carbon": 1.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "By-product of pumpkins."
+  },
+  "sesame_seeds": {
+    "carbon": 2.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cultivation and harvesting contribute to emissions."
+  },
+  "sunflower_seeds": {
+    "carbon": 2.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Harvested from sunflowers."
+  },
+  "walnuts": {
+    "carbon": 2.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Orchard management."
+  },
+  "agave_nectar": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing of the agave plant."
+  },
+  "erythritol": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Sugar alcohol, produced via fermentation."
+  },
+  "honey": {
+    "carbon": 1.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Beekeeping has low emissions, but processing and transport add up."
+  },
+  "jaggery_gur": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Less refined than sugar, so slightly lower processing emissions."
+  },
+  "maple_syrup": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Energy-intensive process of boiling down sap."
+  },
+  "molasses": {
+    "carbon": 2.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "By-product of sugar refining."
+  },
+  "stevia": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Highly processed plant extract."
+  },
+  "sugar_brown": {
+    "carbon": 3.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Slightly less processing than white sugar."
+  },
+  "sugar_from_cane": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Land use change and processing are major factors."
+  },
+  "sugar_powdered": {
+    "carbon": 3.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Milled white sugar."
+  },
+  "xylitol": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Sugar alcohol."
+  },
+  "bagel": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Boiled then baked, slightly more energy."
+  },
+  "baguette": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Simple wheat flour bread."
+  },
+  "bhujia_sev": {
+    "carbon": 2.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fried snack from gram flour (besan)."
+  },
+  "biscuits_plain_wheat": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Ingredients: flour, sugar, oil. Plus baking energy."
+  },
+  "bread_white_wheat": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes wheat farming, milling, and baking."
+  },
+  "breakfast_cereal_flakes": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Corn/wheat/rice, sugar, and high-energy puffing/baking process."
+  },
+  "croissant": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "High butter content is the main driver."
+  },
+  "dosa_1_piece": {
+    "carbon": 0.2,
+    "unit": "kg CO₂e per item",
+    "notes": "Fermented rice/lentil batter, requires oil."
+  },
+  "granola": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Oats, nuts, sugar, and baking energy."
+  },
+  "idli_1_piece_steamed": {
+    "carbon": 0.1,
+    "unit": "kg CO₂e per item",
+    "notes": "Fermented rice/lentil batter, steamed."
+  },
+  "muffin": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Flour, sugar, oil, eggs."
+  },
+  "murukku_chakli": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fried snack from rice/lentil flour."
+  },
+  "naan_1_piece_tandoor": {
+    "carbon": 0.3,
+    "unit": "kg CO₂e per item",
+    "notes": "Leavened bread cooked at high temp in a tandoor."
+  },
+  "papadum_uncooked": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Lentil flour crisps."
+  },
+  "paratha_1_piece_pan_fried": {
+    "carbon": 0.2,
+    "unit": "kg CO₂e per item",
+    "notes": "Chapati with added oil/ghee for frying."
+  },
+  "pasta_dried": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Milling and processing of wheat contribute to emissions."
+  },
+  "popcorn_unpopped_kernels": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Derived from corn."
+  },
+  "potato_chips": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Frying potatoes in oil; includes packaging."
+  },
+  "roti_chapati_1_piece": {
+    "carbon": 0.1,
+    "unit": "kg CO₂e per item",
+    "notes": "Made from wheat flour (atta), cooked on a pan."
+  },
+  "samosa_1_piece_100g": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per item",
+    "notes": "Ingredients (potato, flour) and frying."
+  },
+  "sourdough_bread": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Natural yeast, but similar ingredients to standard bread."
+  },
+  "tortilla_corn": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Corn processing (nixtamalization) and cooking."
+  },
+  "tortilla_flour": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Wheat flour, oil, and cooking."
+  },
+  "vermicelli_from_wheat": {
+    "carbon": 1.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Extruded pasta product."
+  },
+  "bacon": {
+    "carbon": 7.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cured pork belly."
+  },
+  "beef_jerky": {
+    "carbon": 70.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dehydrated beef; highly concentrated product."
+  },
+  "bouillon_cube_chicken": {
+    "carbon": 2.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dehydrated chicken stock."
+  },
+  "bouillon_cube_vegetable": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dehydrated vegetables and salt."
+  },
+  "canned_corned_beef": {
+    "carbon": 65.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Canned processed beef."
+  },
+  "canned_soup_chicken_noodle": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes chicken broth and meat."
+  },
+  "canned_soup_vegetable": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Vegetables, broth, and energy for canning."
+  },
+  "dhokla_mix": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Gram flour based mix."
+  },
+  "dosa_mix_dry": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Rice and lentil flours."
+  },
+  "frozen_berries": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing and freezing."
+  },
+  "frozen_fish_fillets": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fishing, processing, and freezing."
+  },
+  "frozen_french_fries": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing potatoes and freezing."
+  },
+  "frozen_pizza_cheese": {
+    "carbon": 8.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cheese, tomato sauce, wheat base, freezing."
+  },
+  "frozen_pizza_pepperoni": {
+    "carbon": 9.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes processed meat (pork)."
+  },
+  "frozen_vegetables_mixed": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing and freezing."
+  },
+  "gulab_jamun_mix": {
+    "carbon": 5.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Contains milk powder, flour, sugar."
+  },
+  "ham": {
+    "carbon": 7.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cured pork leg."
+  },
+  "hot_dogs": {
+    "carbon": 7.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Highly processed meat."
+  },
+  "hummus": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Made from chickpeas, tahini (sesame), and oil."
+  },
+  "idli_mix_dry": {
+    "carbon": 3.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Rice and lentil flours."
+  },
+  "instant_noodles": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fried noodles (flour, palm oil) and packaging."
+  },
+  "jalebi_mix": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Flour, sugar, lentil flour."
+  },
+  "jam_marmalade": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fruit, sugar, and energy for cooking and bottling."
+  },
+  "kimchi": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fermented vegetables (cabbage, radish)."
+  },
+  "pancake_mix_dry": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mainly flour and sugar."
+  },
+  "peanut_butter": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Peanuts, oil, and energy for grinding."
+  },
+  "pepperoni": {
+    "carbon": 9.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cured pork sausage."
+  },
+  "pickle_cucumber": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cucumbers, vinegar, and bottling."
+  },
+  "pickle_lime": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Lime, oil, spices."
+  },
+  "pickle_mango": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mango, oil, and spices."
+  },
+  "pork_rinds": {
+    "carbon": 8.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fried pork skin."
+  },
+  "salami": {
+    "carbon": 9.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cured pork sausage."
+  },
+  "sausage_pork": {
+    "carbon": 7.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Ground pork and seasonings."
+  },
+  "sauerkraut": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fermented cabbage, very low impact."
+  },
+  "spam": {
+    "carbon": 8.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Canned processed pork."
+  },
+  "tomatoes_canned": {
+    "carbon": 2.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Includes processing, canning, and transport of heavy cans."
+  },
+  "upma_mix_dry": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Roasted semolina (rava) and spices."
+  },
+  "beer": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per liter",
+    "notes": "Brewing, packaging, and transport."
+  },
+  "bottled_water": {
+    "carbon": 0.3,
+    "unit": "kg CO₂e per liter",
+    "notes": "Primarily from bottle production and transport."
+  },
+  "chaas_buttermilk_1_glass": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per item",
+    "notes": "Diluted yogurt, lower footprint than lassi."
+  },
+  "club_soda_seltzer": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per liter",
+    "notes": "Water, carbonation, bottling."
+  },
+  "coconut_water": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per liter",
+    "notes": "Minimal processing, but transport and packaging are factors."
+  },
+  "coffee_roasted_beans": {
+    "carbon": 17.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions from farming, processing, and transport."
+  },
+  "cola_soda": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per liter",
+    "notes": "Sugar, water, carbonation, packaging."
+  },
+  "energy_drink": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per liter",
+    "notes": "Sugar, caffeine, other ingredients, and canning."
+  },
+  "juice_apple": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing apples."
+  },
+  "juice_cranberry": {
+    "carbon": 1.4,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing cranberries."
+  },
+  "juice_grape": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing grapes."
+  },
+  "juice_orange": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing oranges, packaging, and refrigeration."
+  },
+  "juice_tomato": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per liter",
+    "notes": "Processing tomatoes."
+  },
+  "kombucha": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per liter",
+    "notes": "Fermented tea and sugar."
+  },
+  "lassi_mango_1_glass": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per item",
+    "notes": "Yogurt, sugar, and mango pulp."
+  },
+  "lassi_sweet_1_glass": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per item",
+    "notes": "Yogurt and sugar based drink."
+  },
+  "lemonade": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per liter",
+    "notes": "Sugar, lemon juice, water."
+  },
+  "tea_black_dry_leaves": {
+    "carbon": 8.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing (drying, oxidizing) is energy-intensive."
+  },
+  "tonic_water": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per liter",
+    "notes": "Sugar, water, bottling."
+  },
+  "wine": {
+    "carbon": 1.4,
+    "unit": "kg CO₂e per liter",
+    "notes": "Grape cultivation, fermentation, bottling."
+  },
+  "anardana_dried_pomegranate_seeds": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried seeds used as a souring agent."
+  },
+  "asafoetida_hing": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Resin from a plant root; minimal processing."
+  },
+  "balsamic_vinegar": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per liter",
+    "notes": "Aging process requires time but less energy."
+  },
+  "bay_leaf_indian_tej_patta": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried leaves from a tree."
+  },
+  "black_pepper": {
+    "carbon": 3.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cultivated on vines; drying and processing."
+  },
+  "black_salt_kala_namak": {
+    "carbon": 0.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Kiln-fired rock salt with sulfurous compounds."
+  },
+  "capers": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Pickled flower buds."
+  },
+  "caraway_seeds_shahi_jeera": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Spice similar to cumin."
+  },
+  "cardamom_green": {
+    "carbon": 4.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Labor and energy-intensive drying process."
+  },
+  "carom_seeds_ajwain": {
+    "carbon": 2.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried seeds."
+  },
+  "cayenne_pepper": {
+    "carbon": 2.7,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried and ground peppers."
+  },
+  "chaat_masala_spice_blend": {
+    "carbon": 2.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Blend including mango powder, cumin, coriander."
+  },
+  "chutney_mint_coriander": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fresh herbs, spices."
+  },
+  "chutney_tamarind": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Tamarind, jaggery, spices."
+  },
+  "cinnamon_sticks": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Harvested from bark and dried."
+  },
+  "cloves": {
+    "carbon": 3.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Harvested from trees and dried."
+  },
+  "coriander_powder": {
+    "carbon": 2.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "From dried coriander seeds."
+  },
+  "cumin_seeds_jeera": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried spice; cultivation and processing."
+  },
+  "curry_paste_green_thai": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Chilies, lemongrass, spices."
+  },
+  "curry_paste_korma": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Spice paste with nuts and often cream."
+  },
+  "curry_paste_massaman": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Spices and peanuts."
+  },
+  "curry_paste_red_thai": {
+    "carbon": 1.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Red chilies, spices."
+  },
+  "curry_paste_tikka_masala": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Spice paste often containing dairy (yogurt)."
+  },
+  "curry_paste_vindaloo": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Spice paste with vinegar."
+  },
+  "dry_mango_powder_amchur": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Made from dried unripe mangoes."
+  },
+  "fennel_seeds": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried seeds."
+  },
+  "fenugreek_seeds": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried seeds."
+  },
+  "garam_masala_spice_blend": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Average of constituent spices like cinnamon, cloves, cumin."
+  },
+  "garlic_powder": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dehydrated and ground garlic."
+  },
+  "hot_sauce": {
+    "carbon": 1.3,
+    "unit": "kg CO₂e per kg",
+    "notes": "Peppers, vinegar, and bottling."
+  },
+  "ketchup": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing of tomatoes, sugar, and packaging."
+  },
+  "mace_javitri": {
+    "carbon": 4.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Lacy covering of the nutmeg seed."
+  },
+  "mayonnaise": {
+    "carbon": 3.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Primary ingredients are eggs and oil."
+  },
+  "miso_paste": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fermented soybeans."
+  },
+  "mustard_condiment": {
+    "carbon": 1.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mustard seeds, vinegar, and processing."
+  },
+  "mustard_seeds": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "The base ingredient for mustard oil."
+  },
+  "nigella_seeds_kalonji": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried seeds."
+  },
+  "nutmeg": {
+    "carbon": 4.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried seed."
+  },
+  "onion_powder": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dehydrated and ground onions."
+  },
+  "paprika": {
+    "carbon": 2.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried and ground peppers."
+  },
+  "rasam_powder_spice_blend": {
+    "carbon": 2.4,
+    "unit": "kg CO₂e per kg",
+    "notes": "Blend of spices for a soupy dish."
+  },
+  "red_chili_powder": {
+    "carbon": 2.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Drying and grinding of chilies."
+  },
+  "rock_salt_sendha_namak": {
+    "carbon": 0.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mined salt."
+  },
+  "saffron": {
+    "carbon": 15.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Extremely labor-intensive harvesting process."
+  },
+  "salt": {
+    "carbon": 0.1,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mined or evaporated; low carbon footprint."
+  },
+  "sambar_powder_spice_blend": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Blend of lentils and spices."
+  },
+  "soy_sauce": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Fermentation of soybeans and wheat."
+  },
+  "star_anise": {
+    "carbon": 3.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried fruit of a tree."
+  },
+  "tahini_sesame_paste": {
+    "carbon": 3.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Ground sesame seeds."
+  },
+  "tamarind_paste": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing of tamarind pulp."
+  },
+  "turmeric_powder_haldi": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Dried and ground spice; processing adds to footprint."
+  },
+  "vanilla_bean": {
+    "carbon": 25.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Labor-intensive pollination and curing process."
+  },
+  "vinegar_apple_cider": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per liter",
+    "notes": "Fermentation of apple juice."
+  },
+  "vinegar_generic": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per liter",
+    "notes": "Fermentation process is low energy."
+  },
+  "vinegar_rice": {
+    "carbon": 4.2,
+    "unit": "kg CO₂e per liter",
+    "notes": "Fermented from rice."
+  },
+  "vinegar_white": {
+    "carbon": 0.8,
+    "unit": "kg CO₂e per liter",
+    "notes": "Industrial production from grain alcohol."
+  },
+  "agar_agar": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Seaweed-derived gelling agent."
+  },
+  "baking_powder": {
+    "carbon": 0.6,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mixture of baking soda and other ingredients."
+  },
+  "baking_soda": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Mining and chemical process."
+  },
+  "cacao_powder": {
+    "carbon": 15.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Processing of cocoa beans, reflects high footprint."
+  },
+  "carob_powder": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Lower impact alternative to cacao."
+  },
+  "chocolate_dark": {
+    "carbon": 19.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Major factor is land use change for cocoa farms."
+  },
+  "gelatin": {
+    "carbon": 5.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Animal-derived product."
+  },
+  "gond_edible_gum": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per kg",
+    "notes": "Resin from trees."
+  },
+  "yeast_dry": {
+    "carbon": 1.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Cultivation process."
+  },
+  "car_petrol": {
+    "carbon": 200.0,
+    "unit": "g CO₂e per km",
+    "notes": "Average emissions for petrol cars."
+  },
+  "car_diesel": {
+    "carbon": 180.0,
+    "unit": "g CO₂e per km",
+    "notes": "Average emissions for diesel cars."
+  },
+  "car_electric": {
+    "carbon": 70.0,
+    "unit": "g CO₂e per km",
+    "notes": "Emissions depend on the electricity generation mix."
+  },
+  "bus_city": {
+    "carbon": 80.0,
+    "unit": "g CO₂e per pkm",
+    "notes": "Per passenger-kilometer; depends on occupancy."
+  },
+  "train_electric": {
+    "carbon": 45.0,
+    "unit": "g CO₂e per pkm",
+    "notes": "Average for electric trains, per passenger-kilometer."
+  },
+  "flight_domestic": {
+    "carbon": 255.0,
+    "unit": "g CO₂e per pkm",
+    "notes": "For short-haul flights, per passenger-kilometer."
+  },
+  "flight_international": {
+    "carbon": 195.0,
+    "unit": "g CO₂e per pkm",
+    "notes": "For long-haul flights, per passenger-kilometer."
+  },
+  "motorbike": {
+    "carbon": 100.0,
+    "unit": "g CO₂e per km",
+    "notes": "Average emissions for motorcycles."
+  },
+  "bicycle": {
+    "carbon": 240.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Manufacturing emissions for steel/aluminum frame."
+  },
+  "smartphone": {
+    "carbon": 70.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Lifetime emissions, dominated by manufacturing."
+  },
+  "laptop": {
+    "carbon": 200.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Lifetime emissions, dominated by manufacturing and energy use."
+  },
+  "tablet": {
+    "carbon": 100.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Manufacturing and shipping emissions."
+  },
+  "television_led": {
+    "carbon": 150.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Manufacturing footprint for a mid-size TV."
+  },
+  "refrigerator": {
+    "carbon": 1000.0,
+    "unit": "kg CO₂e per lifetime",
+    "notes": "High emissions from refrigerants and energy usage over ~15 years."
+  },
+  "washing_machine": {
+    "carbon": 500.0,
+    "unit": "kg CO₂e per lifetime",
+    "notes": "Depends on energy efficiency and usage frequency."
+  },
+  "air_conditioner": {
+    "carbon": 1000.0,
+    "unit": "kg CO₂e per lifetime",
+    "notes": "High energy use and refrigerant leakage are main factors."
+  },
+  "microwave_oven": {
+    "carbon": 100.0,
+    "unit": "kg CO₂e per lifetime",
+    "notes": "Includes manufacturing and average energy use."
+  },
+  "led_light_bulb": {
+    "carbon": 5.0,
+    "unit": "kg CO₂e per lifetime",
+    "notes": "Lifetime includes manufacturing and electricity use."
+  },
+  "cotton_tshirt": {
+    "carbon": 2.1,
+    "unit": "kg CO₂e per item",
+    "notes": "Emissions from cotton farming, processing, and transport."
+  },
+  "jeans_denim": {
+    "carbon": 8.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Water and energy-intensive dyeing and production process."
+  },
+  "leather_jacket": {
+    "carbon": 25.0,
+    "unit": "kg CO₂e per item",
+    "notes": "High emissions due to animal agriculture and leather tanning."
+  },
+  "polyester_shirt": {
+    "carbon": 3.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Emissions from fossil-fuel based synthetic fiber production."
+  },
+  "wool_sweater": {
+    "carbon": 6.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Emissions from sheep farming (methane)."
+  },
+  "running_shoes": {
+    "carbon": 14.0,
+    "unit": "kg CO₂e per pair",
+    "notes": "Complex manufacturing with various synthetic materials."
+  },
+  "leather_shoes": {
+    "carbon": 25.0,
+    "unit": "kg CO₂e per pair",
+    "notes": "High emissions due to animal agriculture and leather tanning."
+  },
+  "paper_bag": {
+    "carbon": 0.08,
+    "unit": "kg CO₂e per bag",
+    "notes": "Higher than plastic per use, but biodegradable."
+  },
+  "plastic_bag_single_use": {
+    "carbon": 0.02,
+    "unit": "kg CO₂e per bag",
+    "notes": "Low production emissions but significant disposal issues."
+  },
+  "glass_bottle": {
+    "carbon": 1.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Energy-intensive to produce but highly recyclable."
+  },
+  "plastic_bottle_pet": {
+    "carbon": 0.3,
+    "unit": "kg CO₂e per item",
+    "notes": "Emissions from plastic production; recycling is key."
+  },
+  "aluminum_can": {
+    "carbon": 0.4,
+    "unit": "kg CO₂e per item",
+    "notes": "Energy-intensive to produce from virgin material, but highly recyclable."
+  },
+  "steel_reusable_bottle": {
+    "carbon": 6.0,
+    "unit": "kg CO₂e per item",
+    "notes": "Manufacturing emissions are high but offset by reuse."
+  },
+  "notebook_paper": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Depends on paper sourcing (virgin vs. recycled) and processing."
+  },
+  "cement": {
+    "carbon": 0.9,
+    "unit": "kg CO₂e per kg",
+    "notes": "Extremely high emissions from the chemical process (calcination)."
+  },
+  "steel_structural": {
+    "carbon": 1.8,
+    "unit": "kg CO₂e per kg",
+    "notes": "Energy-intensive production in blast furnaces."
+  },
+  "paint_latex": {
+    "carbon": 2.2,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions from chemical production and manufacturing."
+  },
+  "pet_food_dry": {
+    "carbon": 2.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Varies based on ingredients (e.g., chicken vs. grain)."
+  },
+  "cat_litter_clay": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Emissions from the mining and processing of bentonite clay."
+  },
+  "diapers_disposable": {
+    "carbon": 0.06,
+    "unit": "kg CO₂e per item",
+    "notes": "Includes plastic production and disposal emissions (methane)."
+  },
+  "toothbrush_plastic": {
+    "carbon": 0.05,
+    "unit": "kg CO₂e per item",
+    "notes": "Plastic production emissions."
+  },
+  "toothbrush_bamboo": {
+    "carbon": 0.02,
+    "unit": "kg CO₂e per item",
+    "notes": "Lower emissions compared to plastic, but bristles are often nylon."
+  },
+  "toothpaste": {
+    "carbon": 0.5,
+    "unit": "kg CO₂e per 100g",
+    "notes": "Includes packaging and chemical production."
+  },
+  "shampoo": {
+    "carbon": 2.0,
+    "unit": "kg CO₂e per 500ml",
+    "notes": "Chemical and plastic bottle emissions."
+  },
+  "soap_bar": {
+    "carbon": 0.7,
+    "unit": "kg CO₂e per 100g",
+    "notes": "Includes chemical production and packaging."
+  },
+  "laundry_detergent": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per 500g",
+    "notes": "Production of chemicals and packaging."
+  },
+  "toilet_paper": {
+    "carbon": 1.5,
+    "unit": "kg CO₂e per kg",
+    "notes": "Depends on pulp source (virgin vs. recycled) and processing."
+  }
+
 }
