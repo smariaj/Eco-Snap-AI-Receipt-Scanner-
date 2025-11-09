@@ -7,9 +7,13 @@ import json
 import cv2
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
+import os
 
 app = Flask(__name__)
-CORS(app)
+
+# Configure CORS to allow requests from the frontend
+frontend_url = os.getenv('FRONTEND_URL', 'http://localhost:3000')
+CORS(app, origins=[frontend_url, 'http://localhost:3000', 'https://localhost:3000', 'http://localhost:3001', 'https://localhost:3001', 'http://localhost:3002', 'https://localhost:3002', 'http://localhost:3003', 'https://localhost:3003', 'http://localhost:3004', 'https://localhost:3004'])
 
 # ---- Load AI model & dataset ----
 model = SentenceTransformer('all-MiniLM-L6-v2')
