@@ -64,63 +64,59 @@ export async function POST(request: NextRequest) {
     }
     
     // Transform the backend response to match the frontend expected format
-    const toLower = (s: string) => s.toLowerCase()
-    const hasKeyword = (s: string, keywords: string[]) => {
-      const n = toLower(s)
-      return keywords.some((k) => new RegExp(`\\b${k}s?\\b`).test(n))
-    }
-    const FOOD = [
-      'milk','cheese','beef','lamb','pork','chicken','poultry','fish','egg','rice','wheat','corn','tomato','tomatoes','spinach','vegetable','vegetables','fruit','fruits','apple','banana','peanut','peanuts','lentil','lentils','chickpea','chickpeas','sorghum','sugar','sugarcane','legume','beans'
-    ]
-    const HOUSEHOLD = ['plastic','cleaning','detergent','container','bottle','bag','soap','shampoo']
-
-    const totals = backendData.results.reduce(
-      (acc: { food: number; household: number; other: number }, item: any) => {
-        const name = String(item.item || '')
-        const val = Number(item.carbon || 0)
-        if (name && hasKeyword(name, FOOD)) acc.food += val
-        else if (name && hasKeyword(name, HOUSEHOLD)) acc.household += val
-        else acc.other += val
-        return acc
-      },
-      { food: 0, household: 0, other: 0 }
-    )
-
-    const categoriesBase = [
-      { name: 'Food & Beverages', value: totals.food, suggestions: [
-        'Choose local and seasonal products',
-        'Opt for lower-carbon protein sources',
-        'Reduce food waste and buy in bulk',
-      ] },
-      { name: 'Household Items', value: totals.household, suggestions: [
-        'Prefer reusable and minimal packaging',
-        'Pick eco-labeled or recycled materials',
-        'Avoid single-use items',
-      ] },
-      { name: 'Other', value: totals.other, suggestions: [
-        'Check product sustainability certifications',
-        'Consider lifecycle impact before purchasing',
-        'Support environmentally responsible brands',
-      ] },
-    ]
-
-    const categories = categoriesBase.filter((c) => c.value > 0)
-
-    const totalFootprint = totals.food + totals.household + totals.other
-
     const analysisResult = {
-      totalFootprint,
-      categories,
-      itemBreakdown: backendData.results.map((item: any) => {
-        const name = String(item.item || '')
-        const val = Number(item.carbon || 0)
-        const category = hasKeyword(name, FOOD)
-          ? 'Food & Beverages'
-          : hasKeyword(name, HOUSEHOLD)
-          ? 'Household Items'
-          : 'Other'
-        return { item: name || 'Unknown Item', co2e: val, category }
-      }),
+      totalFootprint: backendData.results.reduce((sum: number, item: any) => sum + (item.carbon || 0), 0),
+      categories: [
+        {
+          name: "Food & Beverages",
+          value: backendData.results.filter((item: any) => 
+            item.item && ['milk', 'cheese', 'beef', 'chicken', 'fish', 'rice', 'wheat', 'corn', 'tomatoes', 'apples', 'bananas'].some(food => 
+              item.item.toLowerCase().includes(food)
+            )
+          ).reduce((sum: number, item: any) => sum + (item.carbon || 0), 0),
+          suggestions: [
+            "Choose local and seasonal products to reduce transportation emissions",
+            "Opt for plant-based alternatives to reduce food-related carbon footprint",
+            "Buy in bulk to reduce packaging waste",
+          ],
+        },
+        {
+          name: "Household Items",
+          value: backendData.results.filter((item: any) => 
+            item.item && ['plastic', 'cleaning', 'container', 'bottle', 'bag'].some(household => 
+              item.item.toLowerCase().includes(household)
+            )
+          ).reduce((sum: number, item: any) => sum + (item.carbon || 0), 0),
+          suggestions: [
+            "Look for products with minimal packaging",
+            "Choose eco-friendly or recycled alternatives",
+            "Buy reusable items instead of single-use products",
+          ],
+        },
+        {
+          name: "Other",
+          value: backendData.results.filter((item: any) => 
+            item.item && !['milk', 'cheese', 'beef', 'chicken', 'fish', 'rice', 'wheat', 'corn', 'tomatoes', 'apples', 'bananas', 'plastic', 'cleaning', 'container', 'bottle', 'bag'].some(category => 
+              item.item.toLowerCase().includes(category)
+            )
+          ).reduce((sum: number, item: any) => sum + (item.carbon || 0), 0),
+          suggestions: [
+            "Check product certifications for sustainability",
+            "Consider the product lifecycle before purchasing",
+            "Support brands with strong environmental commitments",
+          ],
+        },
+      ],
+      itemBreakdown: backendData.results.map((item: any) => ({
+        item: item.item || "Unknown Item",
+        co2e: item.carbon || 0,
+        category: item.item && ['milk', 'cheese', 'beef', 'chicken', 'fish', 'rice', 'wheat', 'corn', 'tomatoes', 'apples', 'bananas'].some(food => 
+          item.item.toLowerCase().includes(food)
+        ) ? "Food & Beverages" : 
+        item.item && ['plastic', 'cleaning', 'container', 'bottle', 'bag'].some(household => 
+          item.item.toLowerCase().includes(household)
+        ) ? "Household Items" : "Other"
+      })),
     }
 
     return NextResponse.json(analysisResult)

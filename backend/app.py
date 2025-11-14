@@ -89,8 +89,6 @@ def ocr_extract_text(processed_img):
 
     # If both fail, raise error
     raise RuntimeError("OCR failed: No available OCR engine produced output")
-
-
 @app.route("/analyze-receipt", methods=["POST"])
 def analyze_receipt():
     # ---- Check for uploaded file ----

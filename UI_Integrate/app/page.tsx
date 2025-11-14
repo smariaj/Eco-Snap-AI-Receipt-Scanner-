@@ -149,13 +149,9 @@ export default function EcoSnap() {
       setShowResults(true)
     } catch (error: unknown) {
       console.error("Analysis error:", error)
-      if (error instanceof Error) {
-        setAnalysisError(error.message)
-        alert(`Analysis failed: ${error.message}`)
-      } else {
-        setAnalysisError("An unknown error occurred during analysis.")
-        alert("Analysis failed: An unknown error occurred.")
-      }
+      const message = error instanceof Error ? error.message : "Unknown error"
+      setAnalysisError(message)
+      alert(`Analysis failed: ${message}`)
     } finally {
       setIsAnalyzing(false)
     }
@@ -633,12 +629,8 @@ export default function EcoSnap() {
                           <tbody className="divide-y divide-gray-200">
                             {analysisResult.itemBreakdown.map((item, index) => (
                               <tr key={index}>
-                                <td className="px-3 py-2 whitespace-normal text-sm text-gray-900">
-                                  {item.item}
-                                </td>
-                                <td className="px-3 py-2 whitespace-normal text-sm text-gray-900">
-                                  {"Food & Beverages"}
-                                </td>
+                                <td className="px-3 py-2 whitespace-normal text-sm text-gray-900">{item.item}</td>
+                                <td className="px-3 py-2 whitespace-normal text-sm text-gray-900">{item.category}</td>
                                 <td className="px-3 py-2 whitespace-normal text-sm font-medium" style={{ color: "#004d40" }}>
                                   {item.co2e.toFixed(2)}
                                 </td>
@@ -649,13 +641,12 @@ export default function EcoSnap() {
                       </div>
                     </CardContent>
                   </Card>
-                </>
+                  </>
               ) : (
                 <div className="text-center p-16 bg-white rounded-lg shadow-lg">
                   <p className="text-gray-500 text-xl">Analyzing your receipt...</p>
                 </div>
               )}
-
               {analysisError && (
                 <div className="mt-8 text-center p-8 bg-red-100 border border-red-400 text-red-700 rounded-lg shadow-lg">
                   <h3 className="text-xl font-bold mb-2">An Error Occurred</h3>
