@@ -1,0 +1,20 @@
+{
+  "name": "eco-snap-ai-receipt-scanner",
+  "version": "1.0.0",
+  "description": "AI-powered receipt scanner for carbon footprint analysis",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run ui:dev\"",
+    "backend:dev": "cd backend && py app.py",
+    "ui:dev": "cd UI_Integrate && npm run dev",
+    "build": "cd UI_Integrate && npm run build",
+    "start": "cd UI_Integrate && npm run start",
+    "backend:install": "cd backend && py -m pip install -r requirements.txt",
+    "frontend:install": "cd frontend && pnpm install",
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "test:upload": "python test_upload.py"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
